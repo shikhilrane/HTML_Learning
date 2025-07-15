@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list and complexity</title>
+</head>
+<body>
+    <!-- ul>li -->
+    <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+        <li>G</li>
+    </ul>
+
+    <!-- ul>(li>p)*7 -->
+    <ul>
+        <li>
+            <p></p>
+        </li>
+        <li>
+            <p></p>
+        </li>
+        <li>
+            <p></p>
+        </li>
+        <li>
+            <p></p>
+        </li>
+        <li>
+            <p></p>
+        </li>
+        <li>
+            <p></p>
+        </li>
+        <li>
+            <p></p>
+        </li>
+    </ul>
+
+    <!-- ul>(li>p>a)*7 -->
+    <ul>
+        <li>
+            <p><a href="www.google.com" target="_blank">A</a></p>
+        </li>
+        <li>
+            <p><a href="">B</a></p>
+        </li>
+        <li>
+            <p><a href="">C</a></p>
+        </li>
+        <li>
+            <p><a href="">D</a></p>
+        </li>
+        <li>
+            <p><a href="">E</a></p>
+        </li>
+        <li>
+            <p><a href="">F</a></p>
+        </li>
+        <li>
+            <p><a href="">G</a></p>
+        </li>
+    </ul>
+
+    <!-- nav>ul>(li>a)*4 -->
+    <nav>
+        <ul>
+            <li><a href="" style="display: inline;">Home</a></li>
+            <li><a href="" style="display: inline;">Contact</a></li>
+            <li><a href="" style="display: inline;">Log in</a></li>
+            <li><a href="" style="display: inline;">Sign up</a></li>
+        </ul>
+    </nav>
+
+
+</body>
+</html>

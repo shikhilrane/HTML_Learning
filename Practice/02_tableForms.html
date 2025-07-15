@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table and form</title>
+</head>
+<body>
+    <table border="1px">
+        <fieldset>
+            <legend>Form</legend>
+            <thead>
+                <tr>
+                    <th>name</th>
+                    <th>phone nu</th>
+                    <th>address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>1</td>
+                    <td>z</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>2</td>
+                    <td>x</td>
+                </tr>
+                <tr>
+                    <td>c</td>
+                    <td>3</td>
+                    <td>y</td>
+                </tr>
+                <tr>
+                    <td>d</td>
+                    <td>4</td>
+                    <td>u</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="2">total</th>
+                    <th>4</th>
+                </tr>
+            </tfoot>
+        </fieldset>
+    </table>
+
+    <h2>login form</h2>
+    <form action="#">
+        <label for="text">Enter your password : </label>
+        <input type="password" id="text">
+
+        <label for="url">Enter url</label>
+        <input type="url" name="url" id="url">
+        <button type="submit">Submit</button>
+
+        <div class="checkbox">
+            <label for="cb1">lunch</label>
+            <input type="checkbox" name="meal" id="cb1">
+            <label for="cb2">dinner</label>
+            <input type="checkbox" name="meal" id="cb2">
+            <label for="cb3">both</label>
+            <input type="checkbox" name="meal" id="cb3">
+        </div>
+
+        <div class="radio">
+            <label for="r1">lunch</label>
+            <input type="radio" name="r" id="r1">
+            <label for="r2">dinner</label>
+            <input type="radio" name="r" id="r2">
+            <label for="r3">both</label>
+            <input type="radio" name="r" id="r3">
+        </div>
+
+        <label for="data">Select data</label>
+        <input list="datal" id="data">
+        <datalist id="datal">
+            <option value="football">Football</option>
+            <option value="cricket">Cricket</option>
+            <option value="f1">F1</option>
+            <option value="baseball">Baseball</option>
+        </datalist>
+
+        <label for="selOpt">Select which developeer you are : </label>
+        <select name="select" id="selOpt">
+            <option value="FE">Frontend</option>
+            <option value="BE">Backend</option>
+            <option value="FS">Full stack</option>
+            <option value="DO">DevOps</option>
+        </select>
+
+        <div>
+            <label for="optgrp">Select an Option : </label>
+            <select name="og" id="optgrp">
+                <optgroup label="Cars">
+                    <option value="BMW">BMW</option>
+                    <option value="Audi">Audi</option>
+                    <option value="Mercedes">Mercedes</option>
+                </optgroup>
+                <optgroup label="Bikes">
+                    <option value="HB">Hayabusa</option>
+                    <option value="HD">Harley-Davidson</option>
+                    <option value="SZ">Suzuki</option>
+                </optgroup>
+            </select>
+        </div>
+    </form>
+</body>
+</html>

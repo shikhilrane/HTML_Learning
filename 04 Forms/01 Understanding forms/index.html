@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understabding forms</title>
+</head>
+<body>
+    <form autocomplete="on">
+        <fieldset>
+            <legend>Sign In</legend>
+
+            <!-- creating a form -->
+
+            <label for="email">Enter Email ID</label>
+            <input type="text" id="email" placeholder="Enter Your Email ID">
+            
+            <br>
+            <br>
+
+            <!-- creating a password field -->
+            <label for="password">Enter Password : </label>
+            <input type="password" id="password" placeholder="Password here" minlength="8" maxlength="10">
+
+            <br>
+            <br>
+
+            <!-- creating a submit button -->
+            <input type="submit" value="Submit">
+
+            <br>
+            <br>
+            <!-- another way to create button -->
+            <button>Sign Up</button>
+            </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>Input Form</legend>
+
+            <!-- Checkbox -->
+            <div>
+                <span>Select Your Meal : </span>
+                <label for="CB1">Lunch</label>
+                <input type="checkbox" name="meal" id="CB1">
+                <label for="CB2">Dinner</label>
+                <input type="checkbox" name="meal" id="CB2">
+                <label for="CB3">Both</label>
+                <input type="checkbox" name="meal" id="CB3">
+            </div>
+
+            <br>
+
+            <!-- Color -->
+            <div>
+                <label for="col">Select Color : </label>
+                <input type="color" name="color" id="col">
+            </div>
+
+            <br>
+
+            <!-- Date -->
+             <div>
+                <label for="date">Select Date : </label>
+                <input type="date" name="date" id="date">
+             </div>
+
+            <br>
+
+            <!-- Date Time Local -->
+            <div>
+                <label for="dtl">Select Date Time : </label>
+                <input type="datetime-local" name="date" id="dtl">
+            </div>
+
+            <br>
+
+            <!-- File -->
+            <div>
+                <label for="file">Select File : </label>
+                <input type="file" name="file" id="file">
+            </div> 
+
+            <br>
+
+            <!-- Radio -->
+            <div>
+                <span>Select Radio : </span>
+                <label for="r1">Radio 1</label>
+                <input type="radio" name="radio" id="r1">
+                <label for="r2">Radio 2</label>
+                <input type="radio" name="radio" id="r2">
+                <label for="r3">Radio 3</label>
+                <input type="radio" name="radio" id="r3">
+            </div>
+
+            <br>
+
+            <!-- Reset -->
+            <div>
+                <input type="reset" value="Reset">
+            </div>
+
+            <br>
+
+            <!-- tel -->
+            <div>
+                <label for="telephone">Enter Your Contact number : </label>
+                <input type="tel" id="telephone" placeholder="+91 1234567890">
+            </div>
+
+            <br>
+
+            <!-- URL -->
+            <div>
+                <label for="url">Enter Your Website URL : </label>
+                <input type="url" id="url" placeholder="https://www.google.com">
+            </div>
+
+            <br>
+
+            <!-- Datalist -->
+            <div>
+                <label for="dl">Select Your Favourite flavour : </label>
+                <input list="ice" id="dl" placeholder="Select Your Favourite flavour">
+                <datalist id="ice">
+                    <option value="Vanilla">Vanilla</option>
+                    <option value="Coconut">Coconut</option>
+                    <option value="Butter Scotch">Butter Scotch</option>
+                    <option value="Chocolate">Chocolate</option>
+                </datalist>
+            </div>
+
+            <br>
+
+            <!-- Select -->
+            <div>
+                <label for="selOpt">Select which developeer you are : </label>
+                <select name="select" id="selOpt">
+                    <option value="FE">Frontend</option>
+                    <option value="BE">Backend</option>
+                    <option value="FS">Full stack</option>
+                    <option value="DO">DevOps</option>
+                </select>
+            </div>
+
+            <br>
+
+            <!-- Optgroup -->
+            <div>
+                <label for="optgrp">Select an Option : </label>
+                <select name="og" id="optgrp">
+                    <optgroup label="Cars">
+                        <option value="BMW">BMW</option>
+                        <option value="Audi">Audi</option>
+                        <option value="Mercedes">Mercedes</option>
+                    </optgroup>
+                    <optgroup label="Bikes">
+                        <option value="HB">Hayabusa</option>
+                        <option value="HD">Harley-Davidson</option>
+                        <option value="SZ">Suzuki</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <br>
+
+            <!-- Meter -->
+            <div>
+                <label for="meter">fuel</label>
+                <meter i="meter" value="67" min="0" max="100"></meter>
+            </div>
+
+            <br>
+
+            <!-- Progress -->
+            <div>
+                <label for="prgs">In Progress</label>
+                <progress id="prgs" value="96" min="0" max="100"></progress>
+            </div>
+
+            <br>
+
+            <!-- textarea -->
+             <div>
+                <label for="txtara">Enter Information about you </label>
+                <textarea name="textarea" id="txtara" cols="30" rows="10" maxlength="150" minlength="10"></textarea>
+             </div>
+
+             <br>
+
+            <!-- Image Button -->
+             <div>
+                <input type="image" name="imgName" id="img" alt="stack image" src="/LB/WhatsApp Image 2024-11-21 at 14.29.50.jpeg" width="300mm">
+             </div>
+
+        </fieldset>
+    </form>
+</body>
+</html>
