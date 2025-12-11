@@ -7,37 +7,6 @@ This repository contains a set of small HTML learning exercises and mini-project
 
 > NOTE: folder & file listing was read from the repository index. If you'd like, I can update descriptions to match exact file contents after you paste any files or allow me to fetch raw files. :contentReference[oaicite:1]{index=1}
 
----
-
-## Table of contents
-- [Repository structure](#repository-structure)
-- [How to open & run files](#how-to-open--run-files)
-- [What you'll find in each folder](#what-youll-find-in-each-folder)
-- [How to contribute / extend](#how-to-contribute--extend)
-- [Ideas & next steps](#ideas--next-steps)
-- [License & credits](#license--credits)
-
----
-
-## Repository structure
-├── 01 Tags/
-├── 02 Emmet/
-├── 03 Table/
-├── 04 Forms/
-├── 05 Project (Resume Project)/
-├── 06 Project (Product Catalog)/
-├── 07 HTML Media Project/
-├── 08 Head Tag and Faviocon/
-├── Practice/
-├── .DS_Store
-└── README.md
-
-
----
-
-
-> This listing is based on the repository page and shows the top-level folders. Adjust the tree above if you add subfolders or rename files. :contentReference[oaicite:2]{index=2}
-
 
 ---
 
