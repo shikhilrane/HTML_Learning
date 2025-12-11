@@ -20,4 +20,68 @@ This repository contains a set of small HTML learning exercises and mini-project
 ---
 
 ## Repository structure
-(visual tree — update if you add/remove files)
+├── 01 Tags/
+├── 02 Emmet/
+├── 03 Table/
+├── 04 Forms/
+├── 05 Project (Resume Project)/
+├── 06 Project (Product Catalog)/
+├── 07 HTML Media Project/
+├── 08 Head Tag and Faviocon/
+├── Practice/
+├── .DS_Store
+└── README.md
+
+
+---
+
+
+> This listing is based on the repository page and shows the top-level folders. Adjust the tree above if you add subfolders or rename files. :contentReference[oaicite:2]{index=2}
+
+
+---
+
+
+What you'll find in each folder
+
+Below are short, inferred descriptions based on folder names. Replace these with exact contents if you'd like full accuracy.
+
+01 Tags/
+
+Basic HTML tag examples (headings, paragraphs, lists, anchors, images, etc.).
+
+02 Emmet/
+
+Practice files for Emmet snippets & shorthand to speed up HTML authoring.
+
+03 Table/
+
+Examples of HTML tables: headers, rows, colspan/rowspan, basic styling and accessibility considerations.
+
+04 Forms/
+
+Form elements: <form>, inputs, selects, radio buttons, checkboxes, validation examples.
+
+05 Project (Resume Project)/
+
+A simple resume or CV HTML project demonstrating semantic tags and layout.
+
+06 Project (Product Catalog)/
+
+Small product catalog demo (grid/list of items, product cards).
+
+07 HTML Media Project/
+
+Media-related examples (audio, video, <picture> / responsive images).
+
+08 Head Tag and Faviocon/
+
+Examples showing <head> usage: meta tags, viewport, title, favicon, and SEO basics.
+
+Practice/
+
+Misc practice files and experiments.
+
+.DS_Store
+
+macOS metadata file — safe to add to .gitignore if you want to keep repo clean.
